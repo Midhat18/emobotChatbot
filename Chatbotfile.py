@@ -48,12 +48,12 @@ def getresponse(msg):
         if prob.item() > 0.75:
             for response_intent in intents_data['intents']:
                 if tag_intent == response_intent["tag"]:
-                    result.append(f"{Emobot_name}: {random.choice(response_intent['responses'])}") 
+                    result.append(f"{random.choice(response_intent['responses'])}") 
                     result.append(tag_intent)
                     print(result)
                    
         else:
-            result.append(f"{Emobot_name}: i don't understand") 
+            result.append(f"i don't understand") 
           
             print(result)
         break
