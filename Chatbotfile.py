@@ -62,4 +62,3 @@ def getresponse(msg):
     return result
 
 
-
