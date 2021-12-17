@@ -308,6 +308,18 @@
          "Do something that will give you happiness and you stopped feeling useless"
           ]   
          
+         },{
+         "tag":"Joke",
+         "patterns":[
+           "Tell me a joke."
+           ,"can you send me a joke."
+          ],
+         "responses":[
+         "Why don’t scientists trust atoms? Because they make up everything.",
+           "What is a computer’s favorite snack?Computer chips."
+        
+          ]   
+         
          }
         
 
